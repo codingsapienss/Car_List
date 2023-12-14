@@ -29,8 +29,10 @@ const AddCar = () => {
               : car
           )
         );
+        setCarDetail({ brand: "", model: "", qty: "" });
       } else {
         setCarsList([...carsList, carDetail]);
+        setCarDetail({ brand: "", model: "", qty: "" });
       }
     }
   };
