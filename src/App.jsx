@@ -1,10 +1,10 @@
 import "./App.css";
-import AddCar from "./Components/AddCar/AddCar";
+import SelectCarOptions from "./Components/SelectCarOptions/SelectCarOptions";
 
 const App = () => {
   return (
     <div>
-      <AddCar />
+      <SelectCarOptions />
     </div>
   );
 };
