@@ -1,8 +1,6 @@
-.addCarContainer,
 .selectCarOptions {
   width: 700px;
   max-width: 95%;
-  /* height: 300px; */
   margin: 30px auto;
   padding: 20px;
   display: flex;
@@ -11,6 +9,7 @@
   flex-wrap: wrap;
   justify-content: center;
   background-color: lightblue;
+  border: 2px solid black;
 }
 
 h1 {
@@ -62,6 +61,7 @@ button:active {
   justify-content: center;
   background-color: lightcyan;
   padding: 20px;
+  border: 2px solid black;
 }
 
 .singleCarDetail {
