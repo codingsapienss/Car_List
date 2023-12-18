@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./SelectCarOptions.css";
+import "./selectCarOptions.css";
 import availableCarsData from "../../carsData.js";
 
 const SelectCarOptions = () => {
